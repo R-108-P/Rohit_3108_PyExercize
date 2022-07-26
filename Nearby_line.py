@@ -3,7 +3,7 @@ import math
 
 pt = (0, 0)
 angle = 0
-lines = [((1, -1), (1, 1)), ((2, -1), (2, 1))]
+line_segments = [((5, -7), (6, 6)), ((8, -4), (3, 2))]
 data = []
 dct = {}
 
