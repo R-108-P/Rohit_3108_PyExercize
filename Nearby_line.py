@@ -29,3 +29,5 @@ def origin_lineseg_dist(pt1, pt2) -> tuple[list, float] | None:
     if min(pt1[0], pt2[0]) <= x_coord <= max(pt1[0], pt2[0]) and min(pt1[1], pt2[1]) <= \
             y_coord <= max(pt1[1], pt2[1]):
         return [pt1, pt2], round(math.dist((0, 0), (x_coord, y_coord)))
+    
+    print(origin_lineseg_dist((2.0,3.0),(3.0,8.0)))
